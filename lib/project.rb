@@ -8,6 +8,6 @@ attr_accessor :backers, :title
   end
 
   def add_backer(backer)
-    @backers
+    @backers << backer
   end
 end
