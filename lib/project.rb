@@ -9,4 +9,5 @@ attr_accessor :backers, :title
 
   def backers
     @backers
+  end
 end
